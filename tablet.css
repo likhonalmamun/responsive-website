@@ -1,0 +1,94 @@
+#home {
+  overflow: hidden;
+  height: 430px;
+}
+#home::before {
+  overflow: hidden;
+  height: 450px;
+}
+#navbar {
+  justify-content: center;
+}
+#navigation li {
+  margin: 0px 5px;
+}
+#navigation li a {
+  padding: 4px 5px;
+  font-size: 0.9rem;
+}
+#logo img {
+  width: 60px;
+  margin: 5px 10px;
+  border-radius: 40px;
+}
+.h-primary {
+  font-size: 2rem;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+p {
+  font-size: 0.9rem;
+}
+
+#contact-box form {
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+#contact-box label {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+#contact-box form input,
+#contact-box form textarea {
+  font-size: 0.8rem;
+}
+#services {
+  margin: 34px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#services .box img {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+#services .box {
+  margin-bottom: 15px;
+}
+.h-secondery {
+  font-size: 1.4rem;
+  padding: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+#contact {
+  padding: 0px;
+  margin-top: 130px;
+}
+#contact-box {
+  padding-bottom: 0cm;
+}
+#contact::before {
+  height: 380px;
+}
+#clients {
+  margin-bottom: 0cm;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 175px;
+}
+.client-items img {
+  height: 100px;
+}
+#client-section::before {
+  height: 340px;
+}
+#fixing {
+  padding-top: 15px;
+  padding-bottom: 17px;
+}
+#services {
+  margin: 12px;
+}

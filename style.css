@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgba(173, 120, 118, 0.5);
+}
+#navbar {
+  display: flex;
+  height: fit-content;
+  background-color: rgba(173, 120, 118, 0.6);
+  position: fixed;
+  width: 100%;
+  
+}
+
+#logo img {
+  width: 60px;
+  margin: 5px 34px;
+  border-radius: 40px;
+}
+#navigation {
+  display: flex;
+  align-items: center;
+}
+#navigation li {
+  list-style: none;
+  margin: 0px 10px;
+}
+#navigation li a {
+  text-decoration: none;
+  padding: 4px 9px;
+  border-radius: 20px;
+  color: aliceblue;
+  font-family: "Bree Serif", serif;
+  transition: all 0.4s ;
+}
+
+#navigation li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+
+  height: 553px;
+}
+#home::before {
+  content: " ";
+  background: url(/img/spaghetti-gb6b18032d_1920.jpg) no-repeat center center /
+    cover;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.89;
+  height: 580px;
+}
+#home h1 {
+  color: aliceblue;
+  text-align: center;
+}
+p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  margin: 6px 0px;
+}
+.box p {
+  color: black;
+  font-size: 1.1rem;
+}
+.h-primary {
+  font-size: 3rem;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn {
+  padding: 6px 20px;
+  margin: 17px;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  border-radius: 13px;
+  background-color: rgba(222, 236, 129, 0.5);
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  transition-property: all;
+ transition-duration: 0.2s ;
+}
+.btn:hover {
+  color: rgb(209, 18, 247);
+  background-color: rgb(188, 185, 185);
+  padding: 9px 23px;
+  margin: 17px;
+  font-size: 1rem;
+  border: 2px solid white;
+  border-radius: 17px;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  
+}
+
+.center {
+  text-align: center;
+}
+.h-secondery {
+  font-size: 1.8rem;
+  padding: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+#services {
+  margin: 34px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid red;
+  margin: 3px 7px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: rgb(230, 227, 227);
+}
+#services .box img {
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+#client-section::before {
+  content: " ";
+  position: absolute;
+  background: url(/img/platter-gaabf88fc3_1920.jpg);
+  width: 100%;
+  height: 330px;
+  z-index: -1;
+  opacity: 0.4;
+}
+#fixing {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+#clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+.client-items img {
+  height: 150px;
+}
+#contact {
+  padding-top: 40px;
+  margin-top: 55px;
+}
+#contact::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  height: 430px;
+  width: 100%;
+  background: url(/img/contact-us.jpg) no-repeat center center/cover;
+}
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  text-align: center;
+  background-color: rgba(173, 120, 118, 0.5);
+}
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+#contact-box form {
+  width: 40%;
+}
+#contact-box label {
+  font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer {
+  height: 40px;
+  background-color: rgb(0, 4, 7);
+  color: aliceblue;
+  padding-top: 17px;
+  position: relative;
+  top: 42px;
+}
