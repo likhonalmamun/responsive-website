@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+  font-weight: bold;
+}
+body {
+  background: rgba(0, 0, 0, 0.7) url(pexels-maxime-francis-2246476.jpg);
+  background-repeat: no-repeat;
+
+  background-blend-mode: color-burn;
+  background-size: cover;
+  height: 2000px;
+}
+
+img#img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 30px 30px;
+
+  border: 4px solid var(--highlight-colour);
+  border-radius: 40px;
+
+  /* padding: 15px; */
+
+  
+}
+
+nav {
+  position:fixed;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100vh; */
+  /* background-color: rgb(31, 41, 41); */
+  height: 80px;
+  align-items: center;
+  width: 100vw;
+  border-bottom: 4px solid var(--highlight-colour);
+  z-index: 3;
+}
+div.left {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.center ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.center {
+  width: 900px;
+}
+.center ul li {
+  list-style: none;
+}
+.center ul li a:hover {
+  color: var(--highlight-colour);
+  font-size: 15px;
+  padding: 4px 15px;
+  border: 2px solid var(--highlight-colour);
+  border-radius: 10px;
+  transition: all .3s 1 ease-in-out ;
+  
+}
+li a {
+  text-decoration: none;
+  color: rgb(230, 240, 240);
+  text-shadow: 3px 3px 2px var(--primary-colour);
+  animation: suck 2s forwards
+  ;
+  position: fixed;
+  transition: all .3s;
+}
+@keyframes suck {
+  0%{
+top: 0px;
+
+  }
+  50%{
+
+top: 50px;
+  }
+
+100%{
+ 
+  top: 30px;
+}
+
+}
+.right {
+  align-self: right;
+  width: 400px;
+  text-align: right;
+  /* font-size: 30px; */
+  margin-right: 20px;
+}
+button {
+  font-size: 15px;
+  padding: 10px 25px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  background-color: var(--highlight-colour);
+  border: 2px solid var(--highlight-colour);
+  color: rgb(0, 7, 8);
+  font-weight: bold;
+  
+}
+button:hover {
+  color: rgb(136, 136, 243);
+  font-size: 20px;
+  padding: 4px 15px;
+  border: 2px solid rgb(39, 42, 65);
+  border-radius: 10px;
+  transition: all .3s;
+}
+input, button  {
+  animation: luck 2s forwards ease-in-out;
+  position: relative;
+  transition: all .3s;
+}
+@keyframes luck {
+  0%{
+top: -30px;
+
+  }
+  50%{
+
+top: 20px;
+  }
+
+100%{
+ 
+  top: 0px;
+}
+
+}
+input {
+  font-size: 15px;
+  padding: 10px 25px;
+  margin: 0px 5px;
+  border-radius: 10px;
+
+  border: 2px solid var(--highlight-colour);
+  color: rgb(0, 7, 8);
+  font-weight: bold;
+  transition: all .3s;
+}
+input:hover {
+  background-color: gray;
+}
+#name {
+  font-size: 20px;
+  color: var(--highlight-colour);
+  font-weight: bold;
+  /* position: absolute; */
+  left: 120px;
+ 
+}
+.sections {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 700px;
+    width: 1250px;
+    /* border: 4px solid aqua; */
+    position: absolute;
+    left: 300px;
+    top: 200px;
+
+}
+.skill-list {
+    width: 40%;
+    height: 80%;
+    border: 4px solid rgb(8, 9, 9);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 60px;
+    position: relative;
+    
+}
+.Intro{
+    height: 80%;
+   width: 40%;
+    border: 4px solid rgb(12, 13, 13);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 60px;
+    position: relative;
+}
+#p {
+  display:block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: var(--highlight-colour);
+ position: relative;
+ top:30px;
+  font-size: 30px;
+
+}
+
+.skill-list li {
+  
+  list-style: none;
+  color: rgb(236, 240, 222);
+  margin: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px ;
+  background: rgba(96, 182, 201,0.2);
+  box-shadow: 3px 2px 3px rgb(236, 240, 222);
+  transition: all .5s ;
+
+}
+.skill-list li:hover {
+background-color: brown;
+padding: 20px;
+border:2px solid aqua;
+
+}
+.skill-list ul{
+margin-top: 100px;
+}
+#mypic {
+  display: block;
+  width: 150px;
+
+  margin:50px ;
+  border-radius: 300px;
+  border:2px solid aqua;
+
+
+}
+
+
+
+#name {
+  font-family: 'Rubik Moonrocks', cursive;
+  color: rgb(227, 250, 179);
+  font-weight: lighter;
+  word-spacing: 4px;
+  animation: fuck 2s ease-in-out forwards ;
+  position:fixed;
+  /* right: 300px; */
+display: block;
+}
+@keyframes fuck {
+  0%{
+top: 0px;
+
+  }
+  50%{
+
+top: 50px;
+  }
+
+100%{
+ 
+  top: 30px;
+}
+
+}
+
+
+
+.text {
+  color: rgba(65, 126, 140,2);
+  text-align: left;
+ }
+.text ul li {
+  list-style: none;
+  margin: 15px 70px;
+  width: fit-content;
+  font-family:  cursive;
+  word-spacing: 6px;
+transition: all .3s;
+}
+.text ul li:hover {
+  border:2px solid aqua;
+  border-radius: 20px;
+  padding: 0 7px;
+  color: aliceblue;
+}
+.slogo {
+  width: 25px;
+ display: inline-block;
+padding:0 10px;
+}
+.link {
+  color: antiquewhite;
+ 
+ position: relative;
+ bottom: 7px;
+
+  
+}
+.contact {
+  position: absolute;
+  top: 100px;
+  right:60px;
+ 
+  flex-direction: column ;
+  
+}
+.contact:hover {
+ 
+  transform: rotateZ(360deg);
+}
+hr {
+  color: blue;
+  
+}
+.skill-list,.Intro {
+box-shadow:4px 2px 4px var(--primary-colour) ;
+animation: likhon 2s  ease-in-out ;
+animation-fill-mode: forwards;
+animation-direction: reverse;
+
+}
+@keyframes likhon {
+100% {
+top: 700px;
+
+}
+
+
+0%{
+  top: 0;
+}
+
+}
+:root {
+  --primary-colour: rgb(96, 182, 201);
+  --highlight-colour: rgb(27, 243, 243) ;
+}
+.skill-list ul li  {
+  animation: likhon2 2s forwards ease-in-out  1 reverse;
+position: relative;
+transition: all 5s 1 ease-in-out ;
+}
+@keyframes likhon2 {
+100% {
+  right :200px;
+}
+0%{
+  right :0px;
+}
+
+}
+
+.text ul li {
+  position: relative;
+  animation: text1 2s forwards 1 ease-in-out reverse;
+}
+
+@keyframes text1 {
+100% {
+  left:200px;}
+  0% {
+    left:0px;
+  }
+}
+
+
