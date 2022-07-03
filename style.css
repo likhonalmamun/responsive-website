@@ -55,7 +55,7 @@ body {
 }
 #home::before {
   content: " ";
-  background: url(/img/spaghetti-gb6b18032d_1920.jpg) no-repeat center center /
+  background: url(spaghetti-gb6b18032d_1920.jpg) no-repeat center center /
     cover;
   position: absolute;
   top: 0px;
@@ -138,7 +138,7 @@ p {
 #client-section::before {
   content: " ";
   position: absolute;
-  background: url(/img/platter-gaabf88fc3_1920.jpg);
+  background: url(platter-gaabf88fc3_1920.jpg);
   width: 100%;
   height: 330px;
   z-index: -1;
@@ -169,7 +169,7 @@ p {
   opacity: 0.5;
   height: 430px;
   width: 100%;
-  background: url(/img/contact-us.jpg) no-repeat center center/cover;
+  background: url(contact-us.jpg) no-repeat center center/cover;
 }
 #contact-box input,
 #contact-box textarea {
